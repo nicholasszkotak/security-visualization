@@ -6,8 +6,8 @@ import { getMaliciousIpsFromApi } from "../actions/maliciousIps.actions";
 export class LoadByApi extends React.Component {
     
     state = {
-        abuseIpDbApiKey: "f66f22c05de3dd1f18cc70e864cd778e53c7ce8c309de06017f343f9d5d4260ce41381597524d1df",
-        ipStackApiKey: "25e66b9644c2cbc7f75b709ec341dd80",
+        abuseIpDbApiKey: "",
+        ipStackApiKey: "",
         confidenceMinimum: 90,
         totalValues: 50
     };
